@@ -1,0 +1,103 @@
+body {
+  background: #e3e3e3;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.popup {
+				width: 100%;
+				margin: 0 auto;
+				display: none;
+				font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+				position: fixed;
+				z-index: 101;
+			}
+      button2 {
+				font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+				padding: 15px 25px;
+				font-size: 34px;
+				font-weight: 900;
+				text-align: center;
+				cursor: pointer;
+				outline: none;
+				color: #fff;
+				background-color: #4caf50;
+				border: none;
+				border-radius: 15px;
+				box-shadow: 0 9px #999;
+			}
+			.button2:hover {
+				background-color: #181d23;
+			}
+			.button2:active {
+				background-color: #3e8e41;
+				box-shadow: 0 5px #666;
+				transform: translateY(4px);
+			}
+
+			#overlay {
+				font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: #000;
+				filter: alpha(opacity=70);
+				-moz-opacity: 0.7;
+				-khtml-opacity: 0.7;
+				opacity: 0.7;
+				z-index: 100;
+				display: none;
+			}
+			.cnt223 a {
+				font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+				text-decoration: none;
+			}
+			.popup {
+				width: 100%;
+				margin: 0 auto;
+				display: none;
+				font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+				position: fixed;
+				z-index: 101;
+			}
+			.cnt223 {
+				font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+				min-width: 600px;
+				width: 600px;
+				min-height: 150px;
+				margin: 100px auto;
+				background: #f3f3f3;
+				position: relative;
+				z-index: 103;
+				padding: 15px 35px;
+				border-radius: 5px;
+				box-shadow: 0 2px 5px #000;
+			}
+			.cnt223 p {
+				font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+				clear: both;
+				color: #555555;
+				/* text-align: justify; */
+				font-size: 20px;
+				font-family: sans-serif;
+			}
+			.cnt223 p a {
+				font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+				color: #d91900;
+				font-weight: bold;
+			}
+			.cnt223 .x {
+				font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+				float: right;
+				height: 35px;
+				left: 22px;
+				position: relative;
+				top: -25px;
+				width: 34px;
+			}
+			.cnt223 .x:hover {
+				cursor: pointer;
+			}
