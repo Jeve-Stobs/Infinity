@@ -1,9 +1,3 @@
-/**
-
-https://codepen.io/EduardoLopes/pen/IJnAr/license
-
-**/
-
 //dirty code made in less the 24 working hours
 
 var i = 0;
@@ -18,7 +12,8 @@ function randomChoice(array){
 
 var InfiniteRunner = Sketch.create({
   fullscreen: true,
-
+  width: 853;
+  height: 1517;
   container: document.getElementById('container')
 });
 
